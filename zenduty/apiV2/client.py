@@ -2,7 +2,7 @@ import json
 from uuid import UUID
 import requests
 from .authentication.zenduty_credential import ZendutyCredential
-import regex
+import re as regex
 from ._logging import Logging
 from typing import Optional, Union, Any
 from enum import Enum
